@@ -1,0 +1,29 @@
+.header {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+  
+    .logo-container {
+      width: 80px;
+      padding: 20px 200px;
+    }
+    .options {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 0px 200px;
+
+    }
+    .option {
+        cursor: pointer;
+        font-size: 14px;
+        color: black;
+        font-weight: bold;
+        font-stretch: ultra-condensed;
+    }
+    .react-icons {
+        font-size: 12px;
+      }
+}

@@ -14,7 +14,8 @@
         justify-content: flex-end;
         align-items: flex-end;
         padding: 0px 200px;
-
+        white-space: nowrap;
+        overflow: hidden;
     }
     .option {
         cursor: pointer;

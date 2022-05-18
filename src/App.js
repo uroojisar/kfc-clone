@@ -10,8 +10,9 @@ import SignInAndSignUp from './Pages/sign-in-and-sign-up/sign-in-and-sign-up.com
 import {Route, Routes} from 'react-router-dom';
 
 
+
 const App = () => (
-    <div>
+    <div class="app">
     <Header/>
     <Routes>
       {/* 'component' prop is replaced by 'element' prop in react-router-dom version 6 */}

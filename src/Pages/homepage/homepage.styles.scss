@@ -1,5 +1,5 @@
-.homepage {
-    height: 100%;
-    margin: 0px 200px;
-    display: flex;
+@media (min-width: 300px) {
+  .homepage {
+    min-width: 200px;
+  }
 }

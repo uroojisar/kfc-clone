@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom';
 
+// CSS isn't included with React-Bootstrap, we have to import it(https://react-bootstrap.github.io/getting-started/introduction/).
+// Then, we can use bootstrap classes.
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 ReactDOM.render(
     <BrowserRouter>
     <App />

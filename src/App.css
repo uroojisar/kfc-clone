@@ -1,7 +1,12 @@
-body {
-  font-family: 'League Gothic', sans-serif;
-  /* font-family: 'Six Caps', sans-serif; */
+.app {
+  height: 100%;
+  margin: 0px 200px;  
 }
-a {
-  text-decoration: none;
-} 
+
+ /* medium screens */
+@media (max-width: 768px) {
+  .container, .app {
+    padding:0;
+    margin:0px 30px;
+  }
+}

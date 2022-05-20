@@ -1,0 +1,23 @@
+.carousel-component {
+    width: 100%;
+
+    a.carousel-control-prev , a.carousel-control-next {
+        display: none;
+    }
+
+    // @media (max-width: 600px) {
+    //     .carousel-item {
+    //         .img-fluid {
+    //             max-height:100px !important;
+    //         }
+    //     }
+    // }
+
+    // @media (min-width: 768px) {
+    //     .carousel-item {
+    //         .img-fluid {
+    //             max-height:400px !important;
+    //         }
+    //     }
+    // }
+}

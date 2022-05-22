@@ -8,7 +8,6 @@ import SignInAndSignUp from './Pages/sign-in-and-sign-up/sign-in-and-sign-up.com
 //npm i react-router-dom
 // Switch is replaced by Routes in version 6
 import {Route, Routes} from 'react-router-dom';
-import Footer from './Components/footer/footer.component';
 
 
 
@@ -21,7 +20,6 @@ const App = () => (
       <Route path='/locations' element={<StoreLocator/>}/>
       <Route path='/signin' element={<SignInAndSignUp/>}/>
     </Routes>
-    <Footer/>
     </div>
 );
 

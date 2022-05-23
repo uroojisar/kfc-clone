@@ -4,6 +4,7 @@ import Header from './Components/header/header.component';
 import HomePage from './Pages/homepage/homepage.component';
 import StoreLocator from './Pages/storelocator/storelocator.component';
 import SignInAndSignUp from './Pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
+import Footer from './Components/footer/footer.component';
 
 //npm i react-router-dom
 // Switch is replaced by Routes in version 6
@@ -20,6 +21,7 @@ const App = () => (
       <Route path='/locations' element={<StoreLocator/>}/>
       <Route path='/signin' element={<SignInAndSignUp/>}/>
     </Routes>
+    <Footer/>
     </div>
 );
 

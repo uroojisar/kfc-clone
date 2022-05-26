@@ -9,21 +9,21 @@ const CarouselComponent = () => {
             <Carousel.Item>
                 <img
                 className="img-fluid w-100"
-                src={require('../../assets/slide3.jpg')} 
+                src={require('../../assets/slide-1-kfc.png')} 
                 alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item> 
                 <img
                 className="img-fluid w-100"
-                src={require('../../assets/slide2.jpg')} 
+                src={require('../../assets/slide-2-kfc.jpg')} 
                 alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="img-fluid w-100"
-                src={require('../../assets/slide3.jpg')} 
+                src={require('../../assets/slide-3-kfc.png')} 
                 alt="First slide"
                 />
             </Carousel.Item>

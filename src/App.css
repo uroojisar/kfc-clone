@@ -1,6 +1,6 @@
 .app {
   height: 100%;
-  margin: 0px 200px;  
+  margin: 0px 100px;  
 }
 
  /* medium screens */
@@ -8,5 +8,12 @@
   .container, .app {
     padding:0;
     margin:0px 30px;
+  }
+}
+
+/* Padding for large screens and up */
+@media (min-width: 1200px) {
+  .app {
+    margin:0px 200px;
   }
 }

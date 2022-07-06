@@ -3,19 +3,27 @@ import './homepage.styles.scss';
 import Navigation from '../../Components/navigation/navigation.component';
 import CarouselComponent from '../../Components/carousel/carousel.component';
 import Product from '../../Components/product/product.component';
+import { connect } from 'react-redux';
+import {createStructuredSelector} from 'reselect';
+import { selectSignatureBoxItems } from '../../redux/products/product.selectors';
 
-const HomePage = () => {
+
+const HomePage = ({products}) => {
     return (
         <div className="homepage">
-            <Navigation/>
             <CarouselComponent/>
             <div className="container-fluid product-panel">
-                <Product/>
-                <Product/>
-                <Product/>
+                {products.filter((product, idx) => idx < 4)
+                    .map(({id, ...otherProductProps}) => 
+                    <Product key={id} {...otherProductProps}/>
+                )}
             </div>
         </div>
     );
 }
 
-export default HomePage;
+const mapStateToProps = createStructuredSelector({
+    products: selectSignatureBoxItems
+});
+
+export default connect(mapStateToProps, null)(HomePage);

@@ -15,7 +15,7 @@ const HomePage = ({products}) => {
             <div className="container-fluid product-panel">
                 {products.filter((product, idx) => idx < 4)
                     .map(({id, ...otherProductProps}) => 
-                    <Product key={id} {...otherProductProps}/>
+                    <Product key={id} id={id} {...otherProductProps}/>
                 )}
             </div>
         </div>

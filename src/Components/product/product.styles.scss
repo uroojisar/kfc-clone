@@ -3,18 +3,42 @@
 }
 .card-title {
     font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Stint', sans-serif;
+    font-stretch: ultra-condensed;
+
+    &:hover {
+        color: black;
+        text-decoration: underline;
+
+    }
 }
 .text {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-stretch: extra-condensed !important;
 }
 .btn {
     border-radius: 0em !important;
     font-size: 0.8rem !important;
     font-weight: bold !important;
+    font-family: 'Stint', sans-serif;
+    font-stretch: ultra-condensed;
 
+}
+
+.btn-outline-danger {
+    &:hover {
+        background-color: white !important;
+        color: red !important;
+    }
 }
 .container-fluid {
     display: flex !important;
     justify-content: center !important;
+}
+
+.card-img-top:hover {
+    opacity: 0.6;
 }

@@ -6,19 +6,22 @@ const PRODUCTS_DATA = [
             id: 1,
             title: "CRISPY BOX",
             description: "2 Pc Hot <span>&#38;</span> Crispy Chicken, 1 Regular Fries, 1 Regular Drink <span>&#38;</span> 1 Coleslaw.",
-            price: "PKR 520"
+            price: "PKR 520",
+            img_url: "../../assets/product.png"
         },
         {
             id: 2,
             title: "CRISPY BOX",
             description: "2 Pc Hot <span>&#38;</span> Crispy Chicken, 1 Regular Fries, 1 Regular Drink <span>&#38;</span> 1 Coleslaw.",
-            price: "PKR 520"
+            price: "PKR 520",
+            img_url: "../../assets/product.png"
         },
         {
             id: 2,
             title: "CRISPY BOX",
             description: "2 Pc Hot <span>&#38;</span> Crispy Chicken, 1 Regular Fries, 1 Regular Drink <span>&#38;</span> 1 Coleslaw.",
-            price: "PKR 520"
+            price: "PKR 520",
+            img_url: "../../assets/product.png"
         }],
     },
     {
@@ -28,13 +31,15 @@ const PRODUCTS_DATA = [
             id: 1,
             title: "DUO BOX",
             description: "2 Pc Hot <span>&#38;</span> Crispy Chicken, 1 Regular Fries, 1 Regular Drink <span>&#38;</span> 1 Coleslaw.",
-            price: "PKR 520"
+            price: "PKR 520",
+            img_url: "../../assets/product.png"
         },
         {
             id: 2,
             title: "DUO BOX",
             description: "2 Pc Hot <span>&#38;</span> Crispy Chicken, 1 Regular Fries, 1 Regular Drink <span>&#38;</span> 1 Coleslaw.",
-            price: "PKR 520"
+            price: "PKR 520",
+            img_url: "../../assets/product.png"
         }],
     }
 ];
